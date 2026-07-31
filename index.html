@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEFZI Web App</title>
+    <style>
+        /* Removes default browser margins and scrollbars */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; 
+            background-color: #f4f4f9; /* Fallback color while loading */
+        }
+        /* Makes the iframe fill the entire screen */
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your Google Apps Script URL is embedded here -->
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbz8C6lUG--WWSqV9Yr7PAmYKaBHatVyr9BBcz70s0fDvhZ4S0hJr3nf_FWkFp2J9CFB/exec" 
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
